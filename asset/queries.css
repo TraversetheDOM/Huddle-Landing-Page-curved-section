@@ -1,0 +1,612 @@
+/* Media Queries */
+
+/* For sscreen sizes of 1300px and below */
+@media screen and (max-width: 81.25em) {
+  .container {
+    max-width: 102rem;
+  }
+
+  :root {
+    --fs-1: 0.8rem;
+    --fs-2: 1rem;
+    --fs-3: 1.2rem;
+    --fs-4: 1.4rem;
+    --fs-5: 1.6rem;
+    --fs-6: 1.8rem;
+    --fs-7: 2rem;
+    --fs-8: 2.4rem;
+    --fs-9: 3rem;
+    --fs-10: 3.4rem;
+    --fs-11: 4rem;
+    --fs-12: 4.8rem;
+    --fs-13: 5.2rem;
+    --fs-14: 6rem;
+    --fs-15: 7.2rem;
+  }
+
+  .hero_message > .primary_text {
+    width: 50%;
+  }
+
+  .messages > .sent_message {
+    margin-inline: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .tertiary_text {
+    width: 94%;
+  }
+
+  .footer_col1_text {
+    width: 83%;
+  }
+
+  .grow::before {
+    top: -33%;
+  }
+
+  .grow::after {
+    bottom: -33%;
+  }
+
+  .user::before {
+    top: -33%;
+  }
+
+  .user::after {
+    bottom: -33%;
+  }
+
+  .footer::before {
+    top: -27%;
+  }
+}
+
+/* For screen sizes of 1024px and below */
+@media screen and (max-width: 64em) {
+  .container {
+    max-width: 96rem;
+  }
+
+  .grow_text_box > .secondary_heading {
+    font-size: var(--fs-8);
+    margin-bottom: 20px;
+  }
+
+  .grow_text_box > .secondary_text {
+    font-size: var(--fs-5);
+  }
+
+  .flow_text_box > .secondary_heading {
+    font-size: var(--fs-8);
+    margin-bottom: 20px;
+  }
+
+  .flow_text_box > .secondary_text {
+    font-size: var(--fs-5);
+  }
+
+  .user_text_box > .secondary_heading {
+    font-size: var(--fs-8);
+    margin-bottom: 20px;
+  }
+
+  .user_text_box > .secondary_text {
+    font-size: var(--fs-5);
+  }
+
+  .grow::before {
+    top: -35%;
+  }
+
+  .user::after {
+    bottom: -35%;
+  }
+
+  .footer_col1_text {
+    font-size: var(--fs-4);
+  }
+
+  .tertiary_text {
+    font-size: var(--fs-4);
+  }
+
+  .footer::before {
+    top: -27.5%;
+  }
+
+  .cta_form {
+    gap: 14px;
+  }
+}
+
+/* For screen sizes 985px and below */
+@media screen and (max-width: 60.3em) {
+  .container {
+    max-width: 76.8rem;
+  }
+
+  .hero_stats {
+    gap: 250px;
+  }
+
+  .user_image,
+  .flow_image,
+  .grow_image {
+    max-width: 100%;
+  }
+
+  .hero_message > .primary_text {
+    width: 65%;
+  }
+
+  .grow_container {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .grow_text_box {
+    order: 2;
+  }
+
+  .grow_text_box > .secondary_heading {
+    text-align: center;
+  }
+
+  .grow_text_box > .secondary_text {
+    text-align: center;
+  }
+
+  .grow::before {
+    top: -16%;
+  }
+
+  .grow::after {
+    bottom: -16%;
+  }
+
+  .footer_col_1 {
+    order: 2;
+  }
+
+  .flow_container {
+    gap: 100px;
+    flex-direction: column;
+  }
+
+  .flow_text_box > .secondary_heading {
+    text-align: center;
+  }
+
+  .flow_text_box > .secondary_text {
+    text-align: center;
+  }
+
+  .user_container {
+    gap: 100px;
+    flex-direction: column;
+  }
+
+  .user_text_box {
+    order: 2;
+  }
+
+  .user_text_box > .secondary_heading {
+    text-align: center;
+  }
+
+  .user_text_box > .secondary_text {
+    text-align: center;
+  }
+
+  .user::after {
+    bottom: -16%;
+  }
+
+  .user::before {
+    top: -16%;
+  }
+
+  .footer_container {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .footer::before {
+    top: -18.4%;
+  }
+
+  .hero_message > .primary_heading {
+    font-size: var(--fs-9);
+  }
+
+  .hero_message > .primary_text {
+    font-size: var(--fs-4);
+  }
+
+  .cta_container > .secondary_heading {
+    font-size: var(--fs-8);
+  }
+
+  .hero_message > .hero_cta:link,
+  .hero_message > .hero_cta:visited {
+    font-size: var(--fs-4);
+  }
+
+  .cta_container > .hero_cta:link,
+  .cta_container > .hero_cta:visited {
+    font-size: var(--fs-4);
+  }
+}
+
+/* Fot screen sizes of 766px and below */
+@media screen and (max-width: 47.88em) {
+  .container {
+    max-width: 50rem;
+  }
+
+  .header {
+    margin-bottom: 0;
+  }
+
+  .image_logo {
+    width: 60%;
+  }
+
+  .header > .container {
+    padding: 0 var(--spacing-5);
+  }
+
+  .nav > .nav_btn:link,
+  .nav > .nav_btn:visited {
+    font-size: var(--fs-3);
+  }
+
+  .hero_stats {
+    flex-direction: column;
+    gap: 90px;
+  }
+
+  .hero > .hero_container {
+    padding: 0 var(--spacing-8);
+  }
+
+  .hero_message > .primary_text {
+    width: 68%;
+  }
+
+  .grow > .container {
+    padding: var(--spacing-9);
+  }
+
+  .grow::before {
+    top: -18%;
+  }
+
+  .flow > .container {
+    padding: var(--spacing-9);
+  }
+
+  .user > .container {
+    padding: var(--spacing-9);
+  }
+
+  .footer > .container {
+    padding: var(--spacing-9);
+  }
+
+  .footer::before {
+    top: -16%;
+  }
+}
+
+/* For screen sizes 500px and below */
+@media screen and (max-width: 31.25em) {
+  .container {
+    max-width: 42.5rem;
+  }
+
+  .image_logo {
+    width: 40%;
+  }
+
+  .hero_message > .primary_heading {
+    font-size: var(--fs-8);
+  }
+
+  .hero_message > .primary_text {
+    font-size: var(--fs-3);
+    width: 97%;
+  }
+
+  .nav > .nav_btn:link,
+  .nav > .nav_btn:visited {
+    font-size: var(--fs-2);
+  }
+
+  .grow > .container {
+    padding: var(--spacing-6);
+  }
+
+  .grow::before {
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    content: "";
+    top: -19%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .grow::after {
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    content: "";
+    bottom: -19%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .flow > .container {
+    padding: var(--spacing-6);
+  }
+
+  .user > .container {
+    padding: var(--spacing-6);
+  }
+
+  .user::before {
+    background-image: url(../images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    content: "";
+    top: -20%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .user::after {
+    background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    content: "";
+    bottom: -20%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .footer {
+    padding: var(--spacing-9) 0 var(--spacing-11) 0;
+  }
+
+  .footer > .container {
+    padding: var(--spacing-6);
+  }
+
+  .footer::before {
+    background-image: url(../images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15rem;
+    position: absolute;
+    content: "";
+    left: 0%;
+    top: -16%;
+    right: 0%;
+  }
+
+  .cta_form {
+    flex-direction: column;
+  }
+
+  .cta_form > .email_input {
+    width: 100%;
+  }
+
+  .cta_form > .btn {
+    width: 50%;
+    align-self: flex-end;
+  }
+
+  .email_input:invalid + .error_message::after {
+    bottom: 41%;
+  }
+}
+
+/* For screen sizes 430px and Below */
+@media screen and (max-width: 26.88em) {
+  .container {
+    max-width: 35rem;
+  }
+
+  .hero_message > .primary_text {
+    width: 93%;
+  }
+
+  .hero_message > .hero_cta:link,
+  .hero_message > .hero_cta:visited {
+    font-size: var(--fs-3);
+  }
+
+  .hero_message > .hero_cta:link,
+  .hero_message > .hero_cta:visited {
+    padding: var(--spacing-5) var(--spacing-8);
+  }
+
+  .grow_text_box > .secondary_text {
+    font-size: var(--fs-4);
+  }
+
+  .user_text_box > .secondary_text {
+    font-size: var(--fs-4);
+  }
+
+  .flow_text_box > .secondary_text {
+    font-size: var(--fs-4);
+  }
+
+  .tertiary_text {
+    width: 94%;
+  }
+
+  .footer_col1_text {
+    width: 90%;
+  }
+
+  .user::before {
+    top: -22%;
+  }
+
+  .user::after {
+    bottom: -22%;
+  }
+
+  .grow::before {
+    top: -22%;
+  }
+}
+
+/* For screen size 320px and below */
+@media screen and (max-width: 21.63em) {
+  .container {
+    max-width: 23rem;
+  }
+
+  .header > .header_container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .image_logo {
+    width: 100%;
+  }
+
+  .hero > .hero_container {
+    padding: 0 var(--spacing-5);
+  }
+
+  .hero_message > .primary_heading {
+    font-size: var(--fs-5);
+  }
+
+  .hero_message > .primary_text {
+    width: 100%;
+    font-size: var(--fs-2);
+  }
+
+  .hero_message > .hero_cta:link,
+  .hero_message > .hero_cta:visited {
+    font-size: var(--fs-2);
+  }
+
+  .communities > .community_stats {
+    font-size: var(--fs-11);
+  }
+
+  .communities > .community_message {
+    font-size: var(--fs-3);
+  }
+
+  .messages > .message_stats {
+    font-size: var(--fs-11);
+  }
+
+  .messages > .sent_message {
+    font-size: var(--fs-3);
+  }
+
+  .grow > .container {
+    padding: var(--spacing-4);
+  }
+
+  .grow_text_box > .secondary_heading {
+    font-size: var(--fs-7);
+  }
+
+  .grow_text_box > .secondary_text {
+    font-size: var(--fs-2);
+  }
+
+  .grow::before {
+    top: -27%;
+  }
+
+  .grow::after {
+    bottom: -26%;
+  }
+
+  .flow > .container {
+    padding: var(--spacing-4);
+  }
+
+  .flow_text_box > .secondary_heading {
+    font-size: var(--fs-7);
+  }
+
+  .flow_text_box > .secondary_text {
+    font-size: var(--fs-2);
+  }
+
+  .user > .container {
+    padding: var(--spacing-4);
+  }
+
+  .user_text_box > .secondary_heading {
+    font-size: var(--fs-7);
+  }
+
+  .user_text_box > .secondary_text {
+    font-size: var(--fs-2);
+  }
+
+  .user::before {
+    top: -28%;
+  }
+
+  .user::after {
+    bottom: -28%;
+  }
+
+  .cta_container > .secondary_heading {
+    font-size: var(--fs-6);
+  }
+
+  .cta_container > .hero_cta:link,
+  .cta_container > .hero_cta:visited {
+    font-size: var(--fs-2);
+  }
+
+  .footer > .container {
+    padding: var(--spacing-4);
+  }
+
+  .tertiary_heading {
+    font-size: var(--fs-7);
+  }
+
+  .tertiary_text {
+    font-size: var(--fs-2);
+    width: 100%;
+  }
+
+  .footer_col1_text {
+    font-size: var(--fs-2);
+    width: 100%;
+  }
+}
