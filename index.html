@@ -1,67 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" Huddle re-imagines the way we build communities. You have a voice, but so does 
+      your audience. Create connections with your users as you engage in genuine discussion."
+    />
+    <link rel="stylesheet" href="asset/myreset.css" />
+    <link rel="stylesheet" href="asset/style.css" />
+    <link rel="stylesheet" href="asset/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="container header_container">
+        <a href="#">
+          <figure class="image_logo_holder">
+            <img src="images/logo.svg" alt="company logo" class="image_logo" />
+          </figure>
+        </a>
+        <nav class="nav">
+          <a href="#" class="nav_btn">Try it free </a>
+        </nav>
+      </div>
+    </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container hero_container">
+          <div class="hero_message">
+            <h1 class="primary_heading">
+              Build The Community Your Fans Will Love
+            </h1>
+            <p class="primary_text">
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion
+            </p>
+            <a href="#" class="hero_cta">Get Started For Free</a>
+          </div>
+          <figure class="hero_img_holder">
+            <img
+              src="images/screen-mockups.svg"
+              alt="an image screen mockup"
+              class="hero_image"
+            />
+          </figure>
+          <aside class="hero_stats">
+            <div class="communities">
+              <figure class="commuinities_img_holder">
+                <img
+                  src="images/icon-communities.svg"
+                  alt="a community illustration"
+                  class="community_img"
+                />
+              </figure>
+              <p class="community_stats">1.4k+</p>
+              <span class="community_message">Communities Formed</span>
+            </div>
+            <div class="messages">
+              <figure class="messages_img_holder">
+                <img
+                  src="images/icon-messages.svg"
+                  alt="a message illustration"
+                  class="message_img"
+                />
+              </figure>
+              <p class="message_stats">2.7m+</p>
+              <span class="sent_message">Messages Sent</span>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Try it free
+      <!-- GROW TOGETHER SECTION-->
+      <section class="grow">
+        <div class="container grow_container">
+          <div class="grow_text_box">
+            <h2 class="secondary_heading">Grow Together</h2>
+            <p class="secondary_text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <figure class="grow_image_holder">
+            <img
+              src="images/illustration-grow-together.svg"
+              alt="a grow illustration image"
+              class="grow_image"
+            />
+          </figure>
+        </div>
+      </section>
 
-  Build The Community Your Fans Will Love
+      <!-- FLOWING CONVERSTATION SECTION -->
+      <section class="flow">
+        <div class="container flow_container">
+          <figure class="flow_image_holder">
+            <img
+              src="images/illustration-flowing-conversation.svg"
+              alt="a flow illustration image"
+              class="flow_image"
+            />
+          </figure>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+          <div class="flow_text_box">
+            <h2 class="secondary_heading">Flowing Conversations</h2>
+            <p class="secondary_text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  Get Started For Free
+      <!-- YOUR USERS SECTION -->
+      <section class="user">
+        <div class="container user_container">
+          <div class="user_text_box">
+            <h2 class="secondary_heading">Your Users</h2>
+            <p class="secondary_text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
 
-  1.4k+
-  Communities Formed
+          <figure class="user_image_holder">
+            <img
+              src="images/illustration-your-users.svg"
+              alt="a user illustration image"
+              class="user_image"
+            />
+          </figure>
+        </div>
+      </section>
 
-  2.7m+
-  Messages Sent
+      <!--CALL TO ACTION SECTION-->
+      <section class="cta">
+        <div class="container cta_container">
+          <h2 class="secondary_heading">Ready To Build Your Community?</h2>
+          <a href="#" class="hero_cta">Get Started For Free</a>
+        </div>
+      </section>
+    </main>
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_col_1">
+          <a href="#">
+            <figure class="footer_image_holder">
+              <img
+                src="images/logo.copy.svg"
+                alt="company logo"
+                class="footer_logo"
+              />
+            </figure>
+          </a>
+          <p class="footer_col1_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <ul class="communication communication_phone">
+            <li>
+              <img
+                src="images/icon-phone.svg"
+                class="footer_phone_icon footer_communication_icon"
+                alt="a phone icon"
+              />
+            </li>
+            <li>
+              <a href="tel:+1-543-123-4567" class="footer_link"
+                >Phone: +1-543-123-4567</a
+              >
+            </li>
+          </ul>
+          <ul class="communication communication_email">
+            <li>
+              <img
+                src="images/icon-email.svg"
+                class="footer_email_icon footer_communication_icon"
+                alt="an email icon"
+              />
+            </li>
+            <li>
+              <a href="mailto:example@huddle.com" class="footer_link"
+                >example@huddle.com</a
+              >
+            </li>
+          </ul>
+          <ul class="media_platforms">
+            <li>
+              <a href="#" class="footer_link"
+                ><ion-icon name="logo-facebook" class="footer_icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer_link"
+                ><ion-icon name="logo-instagram" class="footer_icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer_link"
+                ><ion-icon name="logo-twitter" class="footer_icon"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_col_2">
+          <h3 class="tertiary_heading">Newsletter</h3>
+          <p class="tertiary_text">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <form class="cta_form">
+            <label for="email" class="sr-only">Enter your email</label>
+            <input type="email" id="email" name="email" class="email_input" />
+            <span class="error_message"></span>
+            <button class="btn" type="button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ikuomola Stephen</a>.
+      </p>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
 </html>
