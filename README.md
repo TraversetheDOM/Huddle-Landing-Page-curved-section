@@ -23,21 +23,27 @@ The users will be able to:
 ### Screenshot
 
 ![Desktop View](design/Large-Laptops.jpeg)
+
 _A screen shot showing the desktop view_
 
 ![Small Laptop View](design/Small-Laptops.jpeg)
+
 _A screen shot showing the view on a small laptop_
 
 ![Tablet Sized View](design/Tablet.jpeg)
+
 _A view of the landing page on a tablet_
 
 ![A large phone View](design/Large-Phones.jpeg)
+
 _A view of the landing page on a larger sized phone_
 
 ![Medium sized view](design/Medium-Phones.jpeg)
+
 _A view of the landing page on a medium sized phone_
 
 ![Small sized phone](design/Small-Phones.jpeg)
+
 _The landing page's view on a small phone_
 
 ### Links
