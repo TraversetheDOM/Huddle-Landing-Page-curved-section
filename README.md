@@ -48,8 +48,8 @@ _The landing page's view on a small phone_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/salutDami/Huddle-Landing-Page-curved-section)
-- Live Site URL: [Add live site URL here](https://salutdami.github.io/Huddle-Landing-Page-curved-section/)
+- Solution URL: [Add solution URL here](https://github.com/TraversetheDOM/Huddle-Landing-Page-curved-section)
+- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/Huddle-Landing-Page-curved-section/)
 
 ## My process
 
