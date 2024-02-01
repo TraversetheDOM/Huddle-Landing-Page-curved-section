@@ -48,8 +48,8 @@ _The landing page's view on a small phone_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/TraversetheDOM/Huddle-Landing-Page-curved-section)
-- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/Huddle-Landing-Page-curved-section/)
+- Solution URL: [Add solution URL here](https://github.com/stephenikuomola/Huddle-Landing-Page-curved-section)
+- Live Site URL: [Add live site URL here](https://stephenikuomola.github.io/Huddle-Landing-Page-curved-section/)
 
 ## My process
 
@@ -126,7 +126,7 @@ To see how you can add code snippets, see below:
 }
 ```
 
-I also learnt how to use the background image properties to add the curved section to the page as this was actually the toughest part of the project. I added property to the svg which was provided in the file as you can see below;
+I also learned how to use the background image properties to add the curved section to the page, which was the most challenging part of the project. I added a property to the SVG, which was provided in the file, as you can see below;
 
 ```css
   preserveAspectRatio="none"
@@ -154,7 +154,7 @@ I also learnt how to use the background image properties to add the curved secti
 
 ### Continued development
 
-I would surely keep learning and improving on my use of flexbox to make layouts and even more complex one as well. I would also need to get more comfortable with makimg the layouts much better with the use of media queries.
+I will surely keep learning and improving on using Flexbox to make layouts and even more complex ones. I would also need to get more comfortable with making the layouts much better using media queries.
 
 ### Useful resources
 
@@ -164,6 +164,6 @@ I would surely keep learning and improving on my use of flexbox to make layouts 
 
 ## Author
 
-- Twitter - [@\_salutDami](https://www.twitter.com/_salutDami)
+- Twitter - [@\_salutDami](https://www.twitter.com/stephenikuomola)
 - Linkedin- [Ikuomola Stephen](https://www.linkedin.com/in/ikuomola-stephen/)
-- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/salutDami)
+- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/stephenikuomola)
